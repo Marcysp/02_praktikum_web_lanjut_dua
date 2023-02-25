@@ -17,8 +17,9 @@ use App\Http\Controllers\AboutController;
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome Alvina Marcy');
 });
+
 
 Route::get('/home', [HomeController::class,'index']);
 Route::get('/about', [AboutController::class,'about']);
